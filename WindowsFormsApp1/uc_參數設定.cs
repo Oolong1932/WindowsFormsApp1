@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
 
         private void uc_參數設定_Load(object sender, EventArgs e)
         {
-
+            //
         }
 
         private void button5_Click(object sender, EventArgs e)
