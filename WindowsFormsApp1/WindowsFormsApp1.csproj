@@ -53,6 +53,42 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingUC\uc_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingUC\uc_1.Designer.cs">
+      <DependentUpon>uc_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingUC\uc_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingUC\uc_2.Designer.cs">
+      <DependentUpon>uc_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingUC\uc_3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingUC\uc_3.Designer.cs">
+      <DependentUpon>uc_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingUC\uc_4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingUC\uc_4.Designer.cs">
+      <DependentUpon>uc_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_main.Designer.cs">
+      <DependentUpon>uc_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uc_參數設定.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uc_參數設定.Designer.cs">
+      <DependentUpon>uc_參數設定.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +101,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SettingUC\uc_1.resx">
+      <DependentUpon>uc_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingUC\uc_2.resx">
+      <DependentUpon>uc_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingUC\uc_3.resx">
+      <DependentUpon>uc_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingUC\uc_4.resx">
+      <DependentUpon>uc_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_main.resx">
+      <DependentUpon>uc_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uc_參數設定.resx">
+      <DependentUpon>uc_參數設定.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
