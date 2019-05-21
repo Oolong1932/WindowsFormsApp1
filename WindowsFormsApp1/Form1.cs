@@ -44,6 +44,40 @@ namespace WindowsFormsApp1
 
         }
 
+        public void ChangToUc1()
+        {
+            panel1.Controls.Clear();
+            SettingUC.uc_1 uc1 = new SettingUC.uc_1();
+            uc1.main = this;
+            panel1.Controls.Add(uc1);              
+        }
+
+
+        public void ChangToUc2()
+        {
+            panel1.Controls.Clear();
+            SettingUC.uc_2 uc2 = new SettingUC.uc_2();
+            uc2.main = this;
+            panel1.Controls.Add(uc2);
+        }
+
+        public void ChangToUc3()
+        {
+            panel1.Controls.Clear();
+            SettingUC.uc_3 uc3 = new SettingUC.uc_3();
+            uc3.main = this;
+            panel1.Controls.Add(uc3);
+        }
+
+        public void ChangToUc4()
+        {
+            panel1.Controls.Clear();
+            SettingUC.uc_4 uc4 = new SettingUC.uc_4();
+            uc4.main = this;
+            panel1.Controls.Add(uc4);
+        }
+
+
 
 
     }

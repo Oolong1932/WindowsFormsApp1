@@ -115,6 +115,7 @@
             this.Name = "uc_參數設定";
             this.Size = new System.Drawing.Size(565, 430);
             this.Load += new System.EventHandler(this.uc_參數設定_Load);
+            this.VisibleChanged += new System.EventHandler(this.uc_參數設定_VisibleChanged);
             this.ResumeLayout(false);
             this.PerformLayout();
 

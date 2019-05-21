@@ -37,6 +37,8 @@
             this.BackColor = System.Drawing.Color.Silver;
             this.Name = "uc_3";
             this.Size = new System.Drawing.Size(565, 430);
+            this.Load += new System.EventHandler(this.uc_3_Load);
+            this.VisibleChanged += new System.EventHandler(this.uc_3_VisibleChanged);
             this.ResumeLayout(false);
 
         }

@@ -59,6 +59,8 @@
             this.Controls.Add(this.label1);
             this.Name = "uc_1";
             this.Size = new System.Drawing.Size(565, 430);
+            this.Load += new System.EventHandler(this.uc_1_Load);
+            this.VisibleChanged += new System.EventHandler(this.uc_1_VisibleChanged);
             this.ResumeLayout(false);
             this.PerformLayout();
 
