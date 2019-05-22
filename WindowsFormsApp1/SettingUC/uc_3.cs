@@ -28,5 +28,15 @@ namespace WindowsFormsApp1.SettingUC
         {
             MessageBox.Show("偵測到切換畫面動作_uc3");
         }
+
+        private void uc3_btn_確定_Click(object sender, EventArgs e)
+        {
+            main.backto參數();
+        }
+
+        private void uc3_btn_取消_Click(object sender, EventArgs e)
+        {
+            main.backto參數();
+        }
     }
 }

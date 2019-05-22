@@ -21,11 +21,7 @@ namespace WindowsFormsApp1
         {
             label1.Text = "2222";
 
-            panel1.Controls.Clear();
-
-            uc_參數設定 uc參數設定 = new uc_參數設定();
-            uc參數設定.main = this;
-            panel1.Controls.Add(uc參數設定);
+            backto參數();
 
         }
 
@@ -43,6 +39,17 @@ namespace WindowsFormsApp1
             panel1.Controls.Add(ucMain);
 
         }
+
+        public void backto參數()
+        {
+            panel1.Controls.Clear();
+            uc_參數設定 uc參數設定 = new uc_參數設定();
+            uc參數設定.main = this;
+            panel1.Controls.Add(uc參數設定);
+
+        }
+
+
 
         public void ChangToUc1()
         {

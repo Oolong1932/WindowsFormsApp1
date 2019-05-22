@@ -21,12 +21,26 @@ namespace WindowsFormsApp1.SettingUC
 
         private void uc_2_Load(object sender, EventArgs e)
         {
+            //Read 紀錄  
+
+
 
         }
 
         private void uc_2_VisibleChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("偵測到切換畫面動作_uc2");
+            if (Visible == false)
+                MessageBox.Show("偵測到切換畫面動作_uc2");
+        }
+
+        private void uc2_btn_確定_Click(object sender, EventArgs e)
+        {
+            main.backto參數();
+        }
+
+        private void uc2_btn_取消_Click(object sender, EventArgs e)
+        {
+            main.backto參數();
         }
     }
 }

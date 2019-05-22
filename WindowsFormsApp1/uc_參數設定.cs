@@ -52,8 +52,8 @@ namespace WindowsFormsApp1
 
         private void uc_參數設定_VisibleChanged(object sender, EventArgs e)
         {
-            if (Visible == false) //
-                MessageBox.Show("偵測到切換畫面動作_uc參數設定");
+            //if (Visible == false) //
+            //    MessageBox.Show("偵測到切換畫面動作_uc參數設定");
         }
     }
 }
