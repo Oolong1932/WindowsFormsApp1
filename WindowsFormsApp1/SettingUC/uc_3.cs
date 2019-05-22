@@ -26,7 +26,8 @@ namespace WindowsFormsApp1.SettingUC
 
         private void uc_3_VisibleChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("偵測到切換畫面動作_uc3");
+           // if (Visible == false)
+           //     MessageBox.Show("偵測到切換畫面動作_uc3");
         }
 
         private void uc3_btn_確定_Click(object sender, EventArgs e)

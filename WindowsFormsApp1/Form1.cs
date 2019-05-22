@@ -19,10 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "2222";
-
             backto參數();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)

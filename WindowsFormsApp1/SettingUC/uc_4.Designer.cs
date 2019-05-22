@@ -33,7 +33,8 @@
             this.uc4_btn_取消 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lab_path = new System.Windows.Forms.Label();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // label1
@@ -73,35 +74,35 @@
             this.label2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(37, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 16);
+            this.label2.Size = new System.Drawing.Size(108, 16);
             this.label2.TabIndex = 3;
-            this.label2.Text = "目前路徑:";
+            this.label2.Text = "目前設定路徑:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(132, 119);
+            this.button1.Location = new System.Drawing.Point(151, 119);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(63, 23);
+            this.button1.Size = new System.Drawing.Size(74, 23);
             this.button1.TabIndex = 4;
-            this.button1.Text = "開啟";
+            this.button1.Text = "選擇路徑";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label3
+            // lab_path
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(67, 163);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "C:\\\\........";
+            this.lab_path.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lab_path.Location = new System.Drawing.Point(37, 145);
+            this.lab_path.Name = "lab_path";
+            this.lab_path.Size = new System.Drawing.Size(449, 173);
+            this.lab_path.TabIndex = 5;
+            this.lab_path.Text = "C:\\\\........";
             // 
             // uc_4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lab_path);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.uc4_btn_取消);
@@ -123,6 +124,7 @@
         private System.Windows.Forms.Button uc4_btn_取消;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lab_path;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
